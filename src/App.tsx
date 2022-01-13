@@ -1,7 +1,6 @@
 import React from 'react';
+import { css } from '@emotion/react';
 
-function App() {
+export function App() {
   return <div>class101</div>;
 }
-
-export default App;
