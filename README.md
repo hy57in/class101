@@ -1,4 +1,4 @@
-# [Numble] 디자인시스템 FOCUS 챌린지
+# [넘블] 디자인시스템 FOCUS 챌린지
 
 <p align="center">
     <img src="./public/apple-icon.png" height="64">
@@ -32,7 +32,6 @@ https://class101-sigma.vercel.app/
 ## 2. Architecture
 
 <div align="center">
-<img src="public/images/PPT/Architecture.png" width="90%" />
 </div>
 
 ## 3. Demo
