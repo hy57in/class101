@@ -32,6 +32,7 @@ const Container = styled.header`
   display: flex;
   align-items: center;
   width: 100%;
+  max-width: 1176px;
   height: 86px;
   padding: 20px 0;
 `;
