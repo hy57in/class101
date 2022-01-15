@@ -19,7 +19,7 @@ const style = css`
   }
 
   .container {
-    margin: 0 10%;
+    margin: 0 20%;
   }
 
   button,

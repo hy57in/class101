@@ -12,6 +12,10 @@ const CategoryNavigationBar = () => {
         <BottomArrowSVG />
       </CategoryNavigationTab>
       <CategoryNavigationTab>
+        새해 다짐격파
+        <Point />
+      </CategoryNavigationTab>
+      <CategoryNavigationTab>
         1월 가입혜택
         <Point />
       </CategoryNavigationTab>
