@@ -23,7 +23,8 @@ const CategoryNavigationBar = () => {
       <CategoryNavigationTab>바로 수강</CategoryNavigationTab>
       <CategoryNavigationTab>신규 클래스</CategoryNavigationTab>
       <CategoryNavigationTab>오픈 예정</CategoryNavigationTab>
-      <CategoryNavigationSubTab style={{ marginLeft: '30px' }}>시그니처</CategoryNavigationSubTab>
+      <VerticalDivider />
+      <CategoryNavigationSubTab>시그니처</CategoryNavigationSubTab>
       <CategoryNavigationSubTab>키즈</CategoryNavigationSubTab>
       <CategoryNavigationSubTab>원포인트 클래스</CategoryNavigationSubTab>
     </Container>
@@ -83,6 +84,13 @@ const Point = styled.div`
   background: rgb(243, 33, 59);
 `;
 
+const VerticalDivider = styled.div`
+  min-height: 30px;
+  width: 1px;
+  background-color: rgb(248, 248, 248);
+  margin-bottom: 12px;
+  margin-right: 30px;
+`;
 const BottomArrowSVG = () => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
