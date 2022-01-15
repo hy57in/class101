@@ -36,6 +36,11 @@ const style = css`
   *:focus {
     outline: none;
   }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 
   @font-face {
     font-family: 'Pretendard';
