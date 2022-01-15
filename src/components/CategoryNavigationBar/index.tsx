@@ -1,4 +1,3 @@
-import SearchField from 'components/SearchField';
 import React from 'react';
 
 import { css } from '@emotion/react';
