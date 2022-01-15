@@ -1,11 +1,11 @@
-import React from 'react';
-import { css } from '@emotion/react';
 import { Header } from 'components/index';
+import React from 'react';
+
+import { css } from '@emotion/react';
 
 export function App() {
   return (
-    <div>
-      class101
+    <div className="container">
       <Header />
     </div>
   );

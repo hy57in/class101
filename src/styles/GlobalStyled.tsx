@@ -1,5 +1,6 @@
-import { Global, css } from '@emotion/react';
 import emotionReset from 'emotion-reset';
+
+import { Global, css } from '@emotion/react';
 
 const style = css`
   ${emotionReset}
@@ -16,6 +17,26 @@ const style = css`
       color: #1a1a1a;
     }
   }
+
+  .container {
+    margin: 0 10%;
+  }
+
+  button,
+  input[type='submit'],
+  input[type='reset'] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  *:focus {
+    outline: none;
+  }
+
   @font-face {
     font-family: 'Pretendard';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff')
