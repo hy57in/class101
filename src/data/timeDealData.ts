@@ -13,7 +13,7 @@ export interface ItimeDealData {
   coupon?: number | null; // 없을 시 null // number만원 쿠폰
 }
 
-export const timeDealData: ItimeDealData[] = [
+export const timeDealDatas: ItimeDealData[] = [
   {
     id: 1,
     title: '허리 건강을 지키는 스트레칭',

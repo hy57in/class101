@@ -6,6 +6,7 @@
     "@class101/ui": "^9.3.3-rc21",
     "@craco/craco": "^6.4.3",
     "@emotion/core": "^11.0.0",
+    "@emotion/is-prop-valid": "^1.1.1",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@testing-library/jest-dom": "^5.16.1",
@@ -20,6 +21,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "styled-components": "^5.3.3",
     "typescript": "^4.5.4",
     "web-vitals": "^2.1.3"
   },
